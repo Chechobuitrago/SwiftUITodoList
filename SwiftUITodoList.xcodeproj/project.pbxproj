@@ -13,6 +13,10 @@
 		9F58E2432C52FCE600ADE611 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F58E2422C52FCE600ADE611 /* Preview Assets.xcassets */; };
 		9F58E24D2C52FE5B00ADE611 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F58E24C2C52FE5B00ADE611 /* ListViewModel.swift */; };
 		9F58E24F2C52FEEE00ADE611 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F58E24E2C52FEEE00ADE611 /* ItemModel.swift */; };
+		9F58E2512C52FFC200ADE611 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F58E2502C52FFC200ADE611 /* ListRowView.swift */; };
+		9F58E2532C52FFCD00ADE611 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F58E2522C52FFCD00ADE611 /* AddView.swift */; };
+		9F58E2552C52FFDD00ADE611 /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F58E2542C52FFDD00ADE611 /* NoItemsView.swift */; };
+		9F58E2572C5301FA00ADE611 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F58E2562C5301FA00ADE611 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		9F58E2422C52FCE600ADE611 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9F58E24C2C52FE5B00ADE611 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		9F58E24E2C52FEEE00ADE611 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		9F58E2502C52FFC200ADE611 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		9F58E2522C52FFCD00ADE611 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		9F58E2542C52FFDD00ADE611 /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
+		9F58E2562C5301FA00ADE611 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,10 @@
 			isa = PBXGroup;
 			children = (
 				9F58E23D2C52FCE500ADE611 /* ListView.swift */,
+				9F58E2502C52FFC200ADE611 /* ListRowView.swift */,
+				9F58E2522C52FFCD00ADE611 /* AddView.swift */,
+				9F58E2542C52FFDD00ADE611 /* NoItemsView.swift */,
+				9F58E2562C5301FA00ADE611 /* LaunchScreen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -155,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F58E2572C5301FA00ADE611 /* LaunchScreen.storyboard in Resources */,
 				9F58E2432C52FCE600ADE611 /* Preview Assets.xcassets in Resources */,
 				9F58E2402C52FCE600ADE611 /* Assets.xcassets in Resources */,
 			);
@@ -169,7 +182,10 @@
 			files = (
 				9F58E23E2C52FCE500ADE611 /* ListView.swift in Sources */,
 				9F58E23C2C52FCE500ADE611 /* SwiftUITodoListApp.swift in Sources */,
+				9F58E2532C52FFCD00ADE611 /* AddView.swift in Sources */,
+				9F58E2512C52FFC200ADE611 /* ListRowView.swift in Sources */,
 				9F58E24F2C52FEEE00ADE611 /* ItemModel.swift in Sources */,
+				9F58E2552C52FFDD00ADE611 /* NoItemsView.swift in Sources */,
 				9F58E24D2C52FE5B00ADE611 /* ListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

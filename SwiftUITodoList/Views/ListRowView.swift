@@ -23,15 +23,6 @@ struct ListRowView: View {
     }
 }
 
-//#Preview {
-//
-//    let item: ItemModel = ItemModel(title: "Prueba", isCompleted: false)
-//
-//    ListRowView(item: item)
-//
-//}
-
-
 struct ListRowView_Previews: PreviewProvider {
     
 static var item1: ItemModel = ItemModel(title: "First Item", isCompleted: false)

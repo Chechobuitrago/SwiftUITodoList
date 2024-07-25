@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		9F58E23C2C52FCE500ADE611 /* SwiftUITodoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F58E23B2C52FCE500ADE611 /* SwiftUITodoListApp.swift */; };
-		9F58E23E2C52FCE500ADE611 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F58E23D2C52FCE500ADE611 /* ContentView.swift */; };
+		9F58E23E2C52FCE500ADE611 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F58E23D2C52FCE500ADE611 /* ListView.swift */; };
 		9F58E2402C52FCE600ADE611 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F58E23F2C52FCE600ADE611 /* Assets.xcassets */; };
 		9F58E2432C52FCE600ADE611 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F58E2422C52FCE600ADE611 /* Preview Assets.xcassets */; };
+		9F58E24D2C52FE5B00ADE611 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F58E24C2C52FE5B00ADE611 /* ListViewModel.swift */; };
+		9F58E24F2C52FEEE00ADE611 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F58E24E2C52FEEE00ADE611 /* ItemModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9F58E2382C52FCE500ADE611 /* SwiftUITodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F58E23B2C52FCE500ADE611 /* SwiftUITodoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITodoListApp.swift; sourceTree = "<group>"; };
-		9F58E23D2C52FCE500ADE611 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9F58E23D2C52FCE500ADE611 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		9F58E23F2C52FCE600ADE611 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F58E2422C52FCE600ADE611 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F58E24C2C52FE5B00ADE611 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		9F58E24E2C52FEEE00ADE611 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				9F58E23B2C52FCE500ADE611 /* SwiftUITodoListApp.swift */,
-				9F58E23D2C52FCE500ADE611 /* ContentView.swift */,
+				9F58E24A2C52FDF900ADE611 /* Models */,
+				9F58E24B2C52FE0400ADE611 /* ViewModels */,
+				9F58E2492C52FDF000ADE611 /* Views */,
 				9F58E23F2C52FCE600ADE611 /* Assets.xcassets */,
 				9F58E2412C52FCE600ADE611 /* Preview Content */,
 			);
@@ -65,6 +71,30 @@
 				9F58E2422C52FCE600ADE611 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9F58E2492C52FDF000ADE611 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9F58E23D2C52FCE500ADE611 /* ListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9F58E24A2C52FDF900ADE611 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9F58E24E2C52FEEE00ADE611 /* ItemModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9F58E24B2C52FE0400ADE611 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9F58E24C2C52FE5B00ADE611 /* ListViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +167,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F58E23E2C52FCE500ADE611 /* ContentView.swift in Sources */,
+				9F58E23E2C52FCE500ADE611 /* ListView.swift in Sources */,
 				9F58E23C2C52FCE500ADE611 /* SwiftUITodoListApp.swift in Sources */,
+				9F58E24F2C52FEEE00ADE611 /* ItemModel.swift in Sources */,
+				9F58E24D2C52FE5B00ADE611 /* ListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

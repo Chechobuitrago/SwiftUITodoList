@@ -39,10 +39,22 @@ Además, incluye persistencia de datos para mantener las tareas entre sesiones.
 
 
 ## Uso
+
 - Agregar una Tarea: Toca el botón de + en la esquina superior derecha para agregar una      nueva tarea.
 - Editar una Tarea: Toca una tarea en la lista para abrir el modo de edición. 
   Realiza los cambios necesarios y toca “Guardar”.
 - Eliminar una Tarea: Desliza hacia la izquierda sobre una tarea en la lista para revelar    el botón de “Eliminar”.
+
+## Contribuciones
+
+¡Las contribuciones son bienvenidas! Si deseas mejorar la aplicación, por favor sigue estos pasos:
+
+	1.	Haz un fork de este repositorio.
+	2.	Crea una nueva rama (git checkout -b feature/nueva-caracteristica).
+	3.	Realiza los cambios necesarios y haz commit (git commit -m 'Agrega nueva             
+      característica').
+	4.	Sube los cambios a tu repositorio (git push origin feature/nueva-caracteristica).
+	5.	Abre un Pull Request en este repositorio.
 
 ## Contacto
 

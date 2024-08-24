@@ -15,9 +15,9 @@ Además, incluye persistencia de datos para mantener las tareas entre sesiones.
 
 ## Capturas de Pantalla
 
-![Lista de Tareas](Screenshots/screenshot 1.jpg)
-![Lista de Tareas Completa](Screenshots/screenshot 2.jpg)
-![Agregar Tarea](screenshots/screenshot 3.jpg)
+![Lista de Tareas](Screenshots/screenshot1.jpg)
+![Lista de Tareas Completa](Screenshots/screenshot2.jpg)
+![Agregar Tarea](screenshots/screenshot3.jpg)
 
 ## Requisitos del Sistema
 

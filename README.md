@@ -13,12 +13,6 @@ Además, incluye persistencia de datos para mantener las tareas entre sesiones.
 - **Persistencia de Datos:** Las tareas se guardan en el dispositivo y permanecen entre sesiones, utilizando `UserDefaults` o `Core Data`.
 - **Interfaz Moderna:** Una interfaz limpia y amigable, diseñada con SwiftUI.
 
-## Capturas de Pantalla
-
-![Lista de Tareas](Screenshots/Screenshot-01.png)
-![Lista de Tareas Completa](Screenshots/Screenshot-02.png)
-![Agregar Tarea](Screenshots/Screenshot-03.png)
-
 ## Requisitos del Sistema
 
 - iOS 15.0 o superior
@@ -32,3 +26,32 @@ Además, incluye persistencia de datos para mantener las tareas entre sesiones.
 
    ```bash
    git clone https://github.com/Chechobuitrago/SwiftUITodoList.git
+
+2. **Abrir en Xcode**
+   Abre el proyecto en Xcode:
+   
+   ```bash
+   cd SwiftUITodoList
+   open SwiftUITodoList.xcodeproj
+
+3. **Ejecutar la Aplicación**
+   Selecciona el simulador o dispositivo real desde Xcode y presiona el botón de “Play”       para ejecutar la aplicación.
+
+
+## Uso
+- Agregar una Tarea: Toca el botón de + en la esquina superior derecha para agregar una      nueva tarea.
+- Editar una Tarea: Toca una tarea en la lista para abrir el modo de edición. 
+  Realiza los cambios necesarios y toca “Guardar”.
+- Eliminar una Tarea: Desliza hacia la izquierda sobre una tarea en la lista para revelar    el botón de “Eliminar”.
+
+## Contacto
+
+Si tienes alguna pregunta o comentario, no dudes en contactarme por Linkedin https://www.linkedin.com/in/sbuitragoa/
+
+¡Gracias por usar la aplicación Lista de Tareas! 🚀
+
+## Capturas de Pantalla
+
+![Lista de Tareas](Screenshots/Screenshot-01.png)
+![Lista de Tareas Completa](Screenshots/Screenshot-02.png)
+![Agregar Tarea](Screenshots/Screenshot-03.png)

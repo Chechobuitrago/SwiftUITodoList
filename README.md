@@ -13,11 +13,6 @@ Además, incluye persistencia de datos para mantener las tareas entre sesiones.
 - **Persistencia de Datos:** Las tareas se guardan en el dispositivo y permanecen entre sesiones, utilizando `UserDefaults` o `Core Data`.
 - **Interfaz Moderna:** Una interfaz limpia y amigable, diseñada con SwiftUI.
 
-## Requisitos del Sistema
-
-- iOS 15.0 o superior
-- Xcode 13.0 o superior
-
 ## Instalación
 
 1. **Clonar el Repositorio**
@@ -35,7 +30,7 @@ Además, incluye persistencia de datos para mantener las tareas entre sesiones.
    open SwiftUITodoList.xcodeproj
 
 3. **Ejecutar la Aplicación**
-   Selecciona el simulador o dispositivo real desde Xcode y presiona el botón de “Play”       para ejecutar la aplicación.
+   Selecciona el simulador o dispositivo real desde Xcode y presiona el botón de “Play” para ejecutar la aplicación.
 
 
 ## Uso
@@ -45,25 +40,24 @@ Además, incluye persistencia de datos para mantener las tareas entre sesiones.
   Realiza los cambios necesarios y toca “Guardar”.
 - Eliminar una Tarea: Desliza hacia la izquierda sobre una tarea en la lista para revelar    el botón de “Eliminar”.
 
+| Google SignIn         | Create account          | Home Screen             |
+| :-------------------- | :---------------------- | :---------------------- |
+| <img src="Screenshots/Screenshot-01.png" width="225"/> | <img src="Screenshots/Screenshot-02.png" width="225"/> | <img src="Screenshots/Screenshot-03.png" width="225"/> | 
+
+
+
 ## Contribuciones
 
 ¡Las contribuciones son bienvenidas! Si deseas mejorar la aplicación, por favor sigue estos pasos:
 
-	1. Haz un fork de este repositorio.
-	2. Crea una nueva rama (git checkout -b feature/nueva-caracteristica).
-	3. Realiza los cambios necesarios y haz commit (git commit -m 'Agrega nueva                   característica').
-	4. Sube los cambios a tu repositorio (git push origin feature/nueva- 	 
-           caracteristica).
-	5. Abre un Pull Request en este repositorio.
+1. Haz un fork de este repositorio.
+2. Crea una nueva rama (git checkout -b feature/nueva-caracteristica).
+3. Realiza los cambios necesarios y haz commit (git commit -m 'Agrega nueva característica').
+4. Sube los cambios a tu repositorio (git push origin feature/nueva-caracteristica).
+5. Abre un Pull Request en este repositorio.
 
 ## Contacto
 
 Si tienes alguna pregunta o comentario, no dudes en contactarme por Linkedin https://www.linkedin.com/in/sbuitragoa/
 
 ¡Gracias por usar la aplicación Lista de Tareas! 🚀
-
-## Capturas de Pantalla
-
-![Lista de Tareas](Screenshots/Screenshot-01.png)
-![Lista de Tareas Completa](Screenshots/Screenshot-02.png)
-![Agregar Tarea](Screenshots/Screenshot-03.png)
